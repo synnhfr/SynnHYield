@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 
 local function createGui()
-	if not CoreGui:FindFirstChild("BLRivals") then
+	if not CoreGui:FindFirstChild("DinosaurBlocky") then
 		local CoreGui = game:GetService("CoreGui")
 		local G2L = {};
 
