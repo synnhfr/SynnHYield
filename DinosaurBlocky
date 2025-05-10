@@ -2977,7 +2977,7 @@ local function createGui()
 								playerHRP.CFrame = currentModel.Main.CFrame + Vector3.new(0, 3, 0)
 								task.wait(0.5)
 								prompt:InputHoldBegin()
-								task.wait(0.5)
+								task.wait(3.5)
 								prompt:InputHoldEnd()
 								task.wait(1)
 							end
