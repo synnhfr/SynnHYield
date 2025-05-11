@@ -2838,7 +2838,7 @@ local function createGui()
 						end
 					end
 
-					print("Low Graphics mode activÈ.")
+					print("Low Graphics mode activ√©.")
 				else
 					game:GetService("Lighting").GlobalShadows = true
 					game:GetService("Lighting").FogEnd = 10000
@@ -2857,7 +2857,7 @@ local function createGui()
 						end
 					end
 
-					print("Low Graphics mode dÈsactivÈ.")
+					print("Low Graphics mode d√©sactiv√©.")
 				end
 			end
 
@@ -3339,13 +3339,13 @@ local function createGui()
 			-- Gestion de l'interaction avec MobileLogo
 			MobileLogo.InputBegan:Connect(function(input)
 				if input.UserInputType == Enum.UserInputType.Touch then
-					MobileLogo.Image = HoverImage -- Change l'image en HoverImage lorsque l'utilisateur commence ‡ appuyer
+					MobileLogo.Image = HoverImage -- Change l'image en HoverImage lorsque l'utilisateur commence √† appuyer
 				end
 			end)
 
 			MobileLogo.InputEnded:Connect(function(input)
 				if input.UserInputType == Enum.UserInputType.Touch then
-					MobileLogo.Image = OriginalImage -- RÈtablit l'image originale lorsque l'utilisateur rel‚che
+					MobileLogo.Image = OriginalImage -- R√©tablit l'image originale lorsque l'utilisateur rel√¢che
 				end
 			end)
 
